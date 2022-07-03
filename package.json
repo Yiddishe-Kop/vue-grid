@@ -4,6 +4,9 @@
     "dist"
   ],
   "private": false,
+  "repository": {
+    "url": "https://github.com/Yiddishe-Kop/vue-grid"
+  },
   "main": "./dist/vue-grid-layout.umd.js",
   "module": "./dist/vue-grid-layout.es.js",
   "exports": {
