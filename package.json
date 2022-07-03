@@ -1,0 +1,39 @@
+{
+  "name": "@yiddishe-kop/vue-grid-layout",
+  "files": [
+    "dist"
+  ],
+  "private": false,
+  "main": "./dist/vue-grid-layout.umd.js",
+  "module": "./dist/vue-grid-layout.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-grid-layout.es.js",
+      "require": "./dist/vue-grid-layout.umd.js"
+    },
+    "./style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "version": "0.0.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@interactjs/actions": "^1.10.14",
+    "@interactjs/auto-start": "^1.10.14",
+    "@interactjs/dev-tools": "^1.10.14",
+    "@interactjs/interactjs": "^1.10.14",
+    "@interactjs/modifiers": "^1.10.14",
+    "element-resize-detector": "^1.2.4",
+    "vue": "^2.7.0-beta.8"
+  },
+  "devDependencies": {
+    "@cxing/vitejs-plugin-inject-css": "^0.0.2",
+    "@vitejs/plugin-vue2": "^1.1.1",
+    "vite": "^2.9.9"
+  }
+}
